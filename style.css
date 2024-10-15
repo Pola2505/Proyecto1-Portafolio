@@ -9,8 +9,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-   
+    padding: 16px;
+    height: 100px;
+    background-color: beige;
 }
 
 header .logo{
@@ -19,6 +20,7 @@ header .logo{
 }
 
 header .abrir-menu, header .cerrar-menu{
+    display: block;
     border: 0;
     font-size: 25px;
     background-color: transparent;
@@ -30,6 +32,8 @@ header .cerrar-menu{
 }
 
 .menu{
+    opacity: 0;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -41,6 +45,11 @@ header .cerrar-menu{
     padding: 20px;
     gap: 10px;
     font-size: 25px;
+}
+
+.menu.visible{
+    opacity: 1;
+    visibility: visible;
 }
 
 header .menu .menu-list{
@@ -55,39 +64,37 @@ header .menu .menu-list li a{
     color: white;
 }
 
-.visible{
-    display:flex;
-}
-
-.hidden{
-    display: none;
-}
-
 
 @media (min-width: 500px){
-    header .abrir-menu{
+    header .abrir-menu, header .cerrar-menu{
         display: none;
     }
 
-    .cerrar-menu{
-        display: none;
-    }
-
-    header #menu{
+    header .menu{
+        opacity: 1;
+        visibility: visible;
         display: flex;
         justify-content: space-between;
         position: relative;
-
+        background-color: beige;
     }
 
     header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        background-color: beige;
+        height: 100px;
     }
 
     header #menu #menu-list{
         flex-direction: row;
         justify-content: space-around;
         width: 500px;
+    }
+
+    header .menu .menu-list li a{
+        color: black;
     }
 }
