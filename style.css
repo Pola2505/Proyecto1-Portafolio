@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     padding: 16px;
     height: 100px;
-    background-color: beige;
+    background-color: #E5989B;
 }
 
 header .logo{
@@ -28,7 +28,7 @@ header .abrir-menu, header .cerrar-menu{
 }
 
 header .cerrar-menu{
-    color: white;
+    color: #FFB4A2;
 }
 
 .menu{
@@ -41,7 +41,7 @@ header .cerrar-menu{
     top: 0;
     bottom: 0;
     right: 0;
-    background-color:rgb(194, 101, 117);
+    background-color:#6D6875;
     padding: 20px;
     gap: 10px;
     font-size: 25px;
@@ -61,7 +61,8 @@ header .menu .menu-list{
 
 header .menu .menu-list li a{
     text-decoration: none;
-    color: white;
+    color: #FFB4A2;
+    letter-spacing: 1px;
 }
 
 
@@ -76,7 +77,7 @@ header .menu .menu-list li a{
         display: flex;
         justify-content: space-between;
         position: relative;
-        background-color: beige;
+        background-color: #E5989B;
     }
 
     header{
@@ -84,7 +85,7 @@ header .menu .menu-list li a{
         justify-content: space-between;
         align-items: center;
         padding: 16px;
-        background-color: beige;
+        background-color: #E5989B;
         height: 100px;
     }
 
@@ -95,6 +96,6 @@ header .menu .menu-list li a{
     }
 
     header .menu .menu-list li a{
-        color: black;
+        color: #6D6875;
     }
 }
