@@ -10,7 +10,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-    height: 100px;
+    height: 60px;
     background-color: #e8c5a2;
 }
 
@@ -120,8 +120,7 @@ header .menu .menu-lista li a{
         display: flex;
         justify-content: space-between;
         position: relative;
-        background-color: #6D6875;
-        opacity: 60%;
+        background-color: #e8c5a2;
 
     }
 
@@ -130,8 +129,7 @@ header .menu .menu-lista li a{
         justify-content: space-between;
         align-items: center;
         padding: 16px;
-        background-color: #6D6875;
-        opacity: 40%;
+        background-color: #e8c5a2;
         height: 100px;
     }
 
