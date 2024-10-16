@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     padding: 16px;
     height: 100px;
-    background-color: #E5989B;
+    background-color: #e8c5a2;
 }
 
 header .logo{
@@ -28,7 +28,7 @@ header .abrir-menu, header .cerrar-menu{
 }
 
 header .cerrar-menu{
-    color: #FFB4A2;
+    color: #e8c5a2;
 }
 
 .menu{
@@ -41,10 +41,11 @@ header .cerrar-menu{
     top: 0;
     bottom: 0;
     right: 0;
-    background-color:#6D6875;
+    background-color:rgba(255, 255, 255, 0.945);
     padding: 20px;
     gap: 10px;
     font-size: 25px;
+    z-index: 3;
 }
 
 .menu.visible{
@@ -61,7 +62,49 @@ header .menu .menu-lista{
 
 header .menu .menu-lista li a{
     text-decoration: none;
-    color: #FFB4A2;
+    color: #e8c5a2;
+    letter-spacing: 1px;
+}
+
+#hola {
+    background-image: url(./images/foto-principal-2.jpeg);
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    position: relative;
+}
+
+#hola h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #e0b080;
+    border: 1px solid rgb(218, 187, 225);
+    padding: 10px;
+    opacity: 40%;
+    color: white;
+    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+}
+
+#hola button{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    padding: 8px;
+    background-color: #e0b080;
+    opacity: 40%;
+    color: white;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+}
+
+#hola h1 span{
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -77,7 +120,9 @@ header .menu .menu-lista li a{
         display: flex;
         justify-content: space-between;
         position: relative;
-        background-color: #eac3c4;
+        background-color: #6D6875;
+        opacity: 60%;
+
     }
 
     header{
@@ -85,7 +130,8 @@ header .menu .menu-lista li a{
         justify-content: space-between;
         align-items: center;
         padding: 16px;
-        background-color: #eac3c4;
+        background-color: #6D6875;
+        opacity: 40%;
         height: 100px;
     }
 
@@ -96,6 +142,6 @@ header .menu .menu-lista li a{
     }
 
     header .menu .menu-lista li a{
-        color: #6D6875;
+        color: white;
     }
 }
