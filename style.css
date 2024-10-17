@@ -108,6 +108,66 @@ header .menu .menu-lista li a{
     letter-spacing: 1px;
 }
 
+.titulos{
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: #e8c5a2;
+    font-size: 30px;
+    background-color: rgb(240, 230, 218);
+}
+
+.conocimientos-parrafo{
+    text-align: center;
+    padding: 10px;
+}
+
+#quote{
+    background-color: #e8c5a2;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#quote img{
+    height: 50px;
+    width: 50px;
+}
+
+#quote p{
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.conocimientos-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conocimientos-cards .tarjeta{
+    border: 1px solid #e8c5a2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 60%;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.conocimientos-cards img{
+    width: 140px;
+    height: 140px;
+}
+
 
 @media (min-width: 500px){
     header .abrir-menu, header .cerrar-menu{
