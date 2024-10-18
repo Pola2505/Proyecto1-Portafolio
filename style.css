@@ -117,9 +117,11 @@ header .menu .menu-lista li a{
     background-color: rgb(240, 230, 218);
 }
 
-.conocimientos-parrafo{
+.parrafo{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(42, 41, 41);
 }
 
 #quote{
@@ -146,6 +148,10 @@ header .menu .menu-lista li a{
     color: white;
 }
 
+#conocimientos, #proyectos{
+    background-color: #fbecdd;
+}
+
 .conocimientos-cards{
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +172,41 @@ header .menu .menu-lista li a{
 .conocimientos-cards img{
     width: 140px;
     height: 140px;
+}
+
+.proyectos-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyectos-tarjetas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8c5a2;
+    width: 300px;
+    height: 330px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.proyectos-tarjetas div img{
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+
+}
+
+.proyectos-tarjetas div button{
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
 }
 
 
