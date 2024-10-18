@@ -94,9 +94,8 @@ header .menu .menu-lista li a{
     top: 80px;
     left: 110px;
     padding: 8px;
-    background-color: #e0b080;
-    opacity: 40%;
-    color: white;
+    background-color: rgb(224, 176, 128, 0.4);
+    color: #594d4d;
     letter-spacing: 1px;
     border: 1px solid white;
     border-radius: 20px;
@@ -110,9 +109,10 @@ header .menu .menu-lista li a{
 
 .titulos{
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 10px;
-    color: #e8c5a2;
+    color: #594d4d;
+    font-weight: 400;
     font-size: 30px;
     background-color: rgb(240, 230, 218);
 }
@@ -149,7 +149,7 @@ header .menu .menu-lista li a{
 }
 
 #conocimientos, #proyectos{
-    background-color: #fbecdd;
+    background-color: rgb(224, 176, 128, 0.1);
 }
 
 .conocimientos-cards{
@@ -184,7 +184,7 @@ header .menu .menu-lista li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e8c5a2;
+    border: 1px solid #e8c5a2;
     width: 300px;
     height: 330px;
     margin: 10px;
