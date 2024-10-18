@@ -111,10 +111,11 @@ header .menu .menu-lista li a{
     text-align: center;
     letter-spacing: 1px;
     padding: 10px;
+    margin-top: 30px;
     color: #594d4d;
     font-weight: 400;
     font-size: 30px;
-    background-color: rgb(240, 230, 218);
+    /* background-color: rgb(240, 230, 218); */
 }
 
 .parrafo{
@@ -146,10 +147,6 @@ header .menu .menu-lista li a{
     padding: 20px;
     font-size: 16px;
     color: white;
-}
-
-#conocimientos, #proyectos{
-    background-color: rgb(224, 176, 128, 0.1);
 }
 
 .conocimientos-cards{
@@ -207,6 +204,11 @@ header .menu .menu-lista li a{
     margin: 20px;
     padding: 5px;
     width: 200px;
+}
+
+.proyectos-tarjetas div button a{
+    text-decoration: none;
+    color: #594d4d;
 }
 
 
