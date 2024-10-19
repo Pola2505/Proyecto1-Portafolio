@@ -149,10 +149,15 @@ header .menu .menu-lista li a{
     color: white;
 }
 
+#conocimientos{
+    margin-bottom: 30px;
+}
+
 .conocimientos-cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .conocimientos-cards .tarjeta{
@@ -164,6 +169,7 @@ header .menu .menu-lista li a{
     text-align: center;
     font-size: 17px;
     letter-spacing: 1px;
+    box-shadow: 1px 3px 6px 6px rgba(196,195,194,0.5);
 }
 
 .conocimientos-cards img{
@@ -181,17 +187,17 @@ header .menu .menu-lista li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #e8c5a2;
     width: 300px;
     height: 330px;
     margin: 10px;
     padding: 10px;
+    box-shadow: 1px 3px 6px 6px rgba(196,195,194,0.5);
 }
 
 .proyectos-tarjetas div img{
     object-fit: cover;
-    height: 90%;
-    width: 100%;
+    height: 80%;
+    width: 90%;
 
 }
 
@@ -209,6 +215,36 @@ header .menu .menu-lista li a{
 .proyectos-tarjetas div button a{
     text-decoration: none;
     color: #594d4d;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contacto .contactame{
+    margin: 20px;
+    text-align: center;
+}
+
+#contacto .contactame .contacto-iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#contacto .contactame .contacto-iconos a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#contacto .contactame .contacto-iconos i{
+    color: pink;
+    padding: 10px;
 }
 
 
