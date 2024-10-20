@@ -1,0 +1,23 @@
+#quote{
+    background-color: #e8c5a2;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#quote img{
+    height: 50px;
+    width: 50px;
+}
+
+#quote p{
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+}

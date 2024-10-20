@@ -1,0 +1,40 @@
+#hola {
+    background-image: url('../images/foto-principal-2.jpeg');
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    position: relative;
+}
+
+#hola h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #e0b080;
+    border: 1px solid rgb(218, 187, 225);
+    padding: 10px;
+    opacity: 40%;
+    color: white;
+    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+}
+
+#hola button{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    padding: 8px;
+    background-color: rgb(224, 176, 128, 0.4);
+    color: #594d4d;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+}
+
+#hola h1 span{
+    font-weight: 600;
+    letter-spacing: 1px;
+}

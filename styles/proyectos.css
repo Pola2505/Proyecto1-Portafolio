@@ -1,0 +1,40 @@
+.proyectos-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyectos-tarjetas a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 330px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 3px 6px 6px rgba(196,195,194,0.5);
+    text-decoration: none;
+}
+
+.proyectos-tarjetas a img{
+    object-fit: cover;
+    height: 80%;
+    width: 90%;
+
+}
+
+.proyectos-tarjetas a button{
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: white;
+    color: rgb(206, 59, 83);
+    border: 1px rgb(206, 59, 83) dashed;
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+.proyectos-tarjetas div button a{
+    text-decoration: none;
+    color: #594d4d;
+}
