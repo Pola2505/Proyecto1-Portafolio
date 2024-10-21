@@ -1,4 +1,4 @@
-#quote{
+#cita{
     background-color: #e8c5a2;
     height: 250px;
     display: flex;
@@ -11,13 +11,29 @@
     color: white;
 }
 
-#quote img{
+#cita img{
     height: 50px;
     width: 50px;
 }
 
-#quote p{
+#cita p{
     padding: 20px;
     font-size: 16px;
     color: white;
+}
+
+@media (min-width: 768px){
+    #cita{
+        font-size: 35px;
+        height: 320px;
+    }
+
+    #cita img{
+        height: 80px;
+        width: 80px;
+    }
+
+    #cita p{
+        font-size: 23px;
+    }
 }
