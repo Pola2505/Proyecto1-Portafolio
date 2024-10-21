@@ -54,3 +54,13 @@
         font-size: 19px;
     }
 }
+@media (min-width: 1024px){
+    #proyectos {
+        margin: 30px 180px;
+    }
+
+    .proyectos-tarjetas a{
+        margin: 30px;
+    }
+
+}
