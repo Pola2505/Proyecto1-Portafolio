@@ -37,3 +37,23 @@
         font-size: 23px;
     }
 }
+
+@media (min-width: 1024px){
+    #cita{
+        font-size: 45px;
+        height: 500px;
+    }
+
+    #cita img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #cita p{
+        font-size: 27px;
+    }
+
+    #cita blockquote {
+        margin: 10px 200px;
+    }
+}
