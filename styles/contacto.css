@@ -34,3 +34,10 @@
     }
     
 }
+
+@media (min-width: 1024px){
+    #contacto{
+        margin: 20px 150px;
+    }
+    
+}
