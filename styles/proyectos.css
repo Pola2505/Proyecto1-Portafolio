@@ -39,6 +39,25 @@
     color: #594d4d;
 }
 
+@keyframes spin {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(1turn);
+    }
+  }
+
+  .proyectos-tarjetas{
+    perspective: 1000px;
+  }
+
+  .proyectos-tarjetas a:hover{
+    animation: spin 5s ease;
+    animation-iteration-count: 1;
+  }
+  
+
 @media (min-width: 768px){
     .proyectos-tarjetas a{
         width: 340px;
