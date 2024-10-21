@@ -14,6 +14,9 @@
     font-family: "Barlow Condensed", sans-serif;
 }
 
+body{
+    background-color: #EAEAEA;
+}
 .titulos{
     text-align: center;
     letter-spacing: 1px;

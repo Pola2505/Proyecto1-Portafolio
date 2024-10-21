@@ -1,7 +1,8 @@
 .escribeme{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    padding: 10px;
     position: relative;
 }
 
@@ -12,10 +13,11 @@
 }
 
 .escribeme input, .escribeme textarea, .escribeme button {
-    background-color: rgba(230, 221, 221, 0.862);
+    background-color: #f8f9fa;
     border: none;
     border-radius: 10px;
     height: 30px;
+    width: 100%;
 }
 
 .escribeme textarea{
@@ -27,4 +29,11 @@
     padding: 3px;
     width: 100px;
     align-self: center;
+}
+
+.escribeme div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
 }

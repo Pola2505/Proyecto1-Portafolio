@@ -3,35 +3,44 @@
     background-size: cover;
     height: 350px;
     background-position: center;
-    position: relative;
+    display: flex;
+}
+
+#hola .hola-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,255,255, 0.5);
+    width: 250px;
+    height: 160px;
+    margin: auto;
 }
 
 #hola h1{
     text-align: center;
-    font-weight: 400;
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #e0b080;
-    border: 1px solid rgb(218, 187, 225);
+    font-weight: 300;
+    font-size: 20px;
     padding: 10px;
-    opacity: 40%;
-    color: white;
-    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+    color: #594d4d;
+}
+
+#hola p{
+    margin: 10px;
+    letter-spacing: 2px;
+    color: #594d4d;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #hola button{
-    position: absolute;
-    top: 80px;
-    left: 110px;
     padding: 8px;
-    background-color: rgb(224, 176, 128, 0.4);
-    color: #594d4d;
+    font-weight: 300;
     letter-spacing: 1px;
-    border: 1px solid white;
+    border: none;
     border-radius: 20px;
-    text-shadow: 1px -1px 17px rgb(186, 61, 61);
+    background-color: #e8c5a2;
+    color: black;
 }
 
 #hola h1 span{
