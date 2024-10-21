@@ -26,3 +26,11 @@
     color: #744253;
     padding: 10px;
 }
+
+@media (min-width: 768px){
+    #contacto .contactame .contacto-iconos a{
+        margin: 20px;
+        font-size: 25px;
+    }
+    
+}

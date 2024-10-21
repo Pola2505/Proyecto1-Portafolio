@@ -37,8 +37,9 @@ body{
 
 @media (min-width: 768px){
     .titulos{
-        font-size: 40px;
+        font-size: 45px;
         margin-top: 60px;
+        color: #e8c5a2;
     }
 
     .parrafo{

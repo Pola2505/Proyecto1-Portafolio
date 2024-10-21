@@ -19,3 +19,13 @@ footer p{
     margin: 40px 20px 20px 20px;
     color: white;
 }
+
+@media (min-width: 768px){
+    footer .pie-redes i{
+        font-size: 40px;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+}

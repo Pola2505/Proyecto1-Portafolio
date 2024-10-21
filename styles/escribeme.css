@@ -37,3 +37,27 @@
     justify-content: flex-start;
     width: 300px;
 }
+
+@media (min-width: 768px){
+    .escribeme label{
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .escribeme input, .escribeme textarea, .escribeme button{
+        height: 45px;
+    }
+
+    .escribeme textarea{
+        height: 200px;
+    }
+
+
+    .escribeme button{
+        width: 200px;
+        font-size: 25px;
+    }
+    .escribeme div{
+        width: 450px;
+    }
+}
