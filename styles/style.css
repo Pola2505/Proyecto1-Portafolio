@@ -35,3 +35,15 @@ body{
     color: rgb(42, 41, 41);
 }
 
+@media (min-width: 768px){
+    .titulos{
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .parrafo{
+        font-size: 22px;
+        margin: 20px;
+    }
+}
+
