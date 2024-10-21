@@ -32,3 +32,18 @@
         height: 200px;
     }
 }
+
+@media (min-width: 1024px){
+    #conocimientos .conocimientos-cards img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .conocimientos-cards .tarjeta{
+        margin: 30px;
+    }
+
+    .conocimientos-cards .tarjeta p{
+        font-size: 35px;
+    }
+}
