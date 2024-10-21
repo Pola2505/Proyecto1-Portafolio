@@ -48,28 +48,29 @@
     letter-spacing: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+
     #hola{
-        height: 450px;
+        height: 600px;
     }
-
     #hola .hola-contenedor{
-        width: 350px;
-        height: 200px;
+        width: 500px;
+        height: 400px;
     }
 
-    #hola h1, #hola p{
+    #hola h1{
+        font-size: 35px;
+    }
+
+    #hola p{
         font-size: 25px;
     }
 
     #hola button{
-        margin-top: 20px;
-        font-size: 18px;
+        font-size: 20px;
+        margin: 10px;
+        padding: 13px;
     }
 
-    #hola button:hover{
-        color: white;
-        background-color: #594d4d;
-        box-shadow: 10px 10px 118px 16px rgba(89,77,77,0.73);
-    }
 }
+
