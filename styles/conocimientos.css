@@ -25,3 +25,10 @@
     width: 100px;
     height: 100px;
 }
+
+@media (min-width: 768px){
+    #conocimientos .conocimientos-cards img{
+        width: 200px;
+        height: 200px;
+    }
+}
