@@ -94,3 +94,9 @@ header .menu .menu-lista li a{
     }
 
 }
+
+@media (min-width: 1024px){
+    header .logo{
+        max-width: 8rem;
+    }
+}
