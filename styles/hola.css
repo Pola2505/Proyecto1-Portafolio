@@ -47,3 +47,28 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+@media (min-width: 768px) {
+    #hola{
+        height: 450px;
+    }
+
+    #hola .hola-contenedor{
+        width: 350px;
+        height: 200px;
+    }
+
+    #hola h1, #hola p{
+        font-size: 25px;
+    }
+
+    #hola button{
+        margin-top: 20px;
+    }
+
+    #hola button:hover{
+        color: white;
+        background-color: #594d4d;
+        box-shadow: 10px 10px 118px 16px rgba(89,77,77,0.73);
+    }
+}
