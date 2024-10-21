@@ -48,3 +48,13 @@ body{
     }
 }
 
+@media (min-width: 1024px){
+    .titulos{
+        font-size: 55px;
+    }
+
+    .parrafo{
+        font-size: 30px;
+    }
+}
+
