@@ -40,7 +40,20 @@
     border: none;
     border-radius: 20px;
     background-color: #e8c5a2;
+}
+
+#hola button a {
+    text-decoration: none;
     color: black;
+}
+
+#hola button:hover{
+   background-color:#594d4d;
+
+}
+
+#hola button a:hover{
+    color:#e8c5a2;
 }
 
 #hola h1 span{
