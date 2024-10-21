@@ -25,6 +25,7 @@
     width: 100px;
     height: 100px;
 }
+  
 
 @media (min-width: 768px){
     #conocimientos .conocimientos-cards img{
@@ -41,6 +42,11 @@
 
     .conocimientos-cards .tarjeta{
         margin: 40px;
+    }
+
+    .conocimientos-cards .tarjeta:hover{
+        box-shadow: 10px 10px 118px 16px rgba(89,77,77,0.73);
+        border-radius: 40px;
     }
 
     .conocimientos-cards .tarjeta p{
