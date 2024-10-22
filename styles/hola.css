@@ -4,6 +4,7 @@
     height: 350px;
     background-position: center;
     display: flex;
+    /* box-shadow: 68px -80px 118px 21px rgba(232,197,162,0.73) inset; */
 }
 
 #hola .hola-contenedor{
