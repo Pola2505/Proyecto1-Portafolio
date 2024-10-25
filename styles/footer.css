@@ -28,4 +28,8 @@ footer p{
     footer p{
         font-size: 20px;
     }
+
+    footer .pie-redes i:hover{
+        color: #594d4d;
+    }
 }
