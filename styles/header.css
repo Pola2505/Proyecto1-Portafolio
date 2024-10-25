@@ -4,7 +4,10 @@ header{
     justify-content: space-between;
     padding: 16px;
     height: 60px;
+    width: 100%;
     background-color: #e8c5a2;
+    position: fixed;
+    z-index: 10;
 }
 
 header .logo{
@@ -91,6 +94,7 @@ header .menu .menu-lista li a{
 
     header .menu .menu-lista li a{
         color: white;
+        text-shadow: 4px 4px 27px rgba(89,77,77,0.8);
     }
 
 }

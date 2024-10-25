@@ -1,10 +1,11 @@
 #introduccion {
     background-image: url('../images/foto-principal-2.jpeg');
     background-size: cover;
-    height: 350px;
+    height: 400px;
+    width: 100%;
     background-position: center;
     display: flex;
-    /* box-shadow: 68px -80px 118px 21px rgba(232,197,162,0.73) inset; */
+    padding-top: 60px;
 }
 
 #introduccion .intro-contenedor{
@@ -62,10 +63,37 @@
     letter-spacing: 1px;
 }
 
+@media (min-width: 768px) {
+
+    #introduccion{
+        height: 650px;
+    }
+    #introduccion .intro-contenedor{
+        width: 400px;
+        height: 300px;
+    }
+
+    #introduccion h1{
+        font-size: 35px;
+    }
+
+    #introduccion p{
+        font-size: 25px;
+    }
+
+    #introduccion button{
+        font-size: 20px;
+        margin: 10px;
+        padding: 13px;
+    }
+
+}
+
+
 @media (min-width: 1024px) {
 
     #introduccion{
-        height: 600px;
+        height: 700px;
     }
     #introduccion .intro-contenedor{
         width: 500px;
