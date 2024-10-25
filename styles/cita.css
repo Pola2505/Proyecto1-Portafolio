@@ -8,18 +8,19 @@
     font-size: 24px;
     padding: 10px;
     letter-spacing: 1px;
-    color: white;
+    color: #594d4d;
 }
 
 #cita img{
     height: 50px;
     width: 50px;
+    align-self: center;
 }
 
 #cita p{
     padding: 20px;
     font-size: 16px;
-    color: white;
+    color: #594d4d;
 }
 
 @media (min-width: 768px){
