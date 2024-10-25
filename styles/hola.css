@@ -1,4 +1,4 @@
-#hola {
+#introduccion {
     background-image: url('../images/foto-principal-2.jpeg');
     background-size: cover;
     height: 350px;
@@ -7,7 +7,7 @@
     /* box-shadow: 68px -80px 118px 21px rgba(232,197,162,0.73) inset; */
 }
 
-#hola .hola-contenedor{
+#introduccion .intro-contenedor{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
     margin: auto;
 }
 
-#hola h1{
+#introduccion h1{
     text-align: center;
     font-weight: 300;
     font-size: 20px;
@@ -26,7 +26,7 @@
     color: #594d4d;
 }
 
-#hola p{
+#introduccion p{
     margin: 10px;
     letter-spacing: 2px;
     color: #594d4d;
@@ -34,7 +34,7 @@
     font-weight: 400;
 }
 
-#hola button{
+#introduccion button{
     padding: 8px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -43,44 +43,44 @@
     background-color: #e8c5a2;
 }
 
-#hola button a {
+#introduccion button a {
     text-decoration: none;
     color: black;
 }
 
-#hola button:hover{
+#introduccion button:hover{
    background-color:#594d4d;
    box-shadow: 10px 10px 118px 16px rgba(89,77,77,0.73);
 }
 
-#hola button a:hover{
+#introduccion button a:hover{
     color:#e8c5a2;
 }
 
-#hola h1 span{
+#introduccion h1 span{
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 @media (min-width: 1024px) {
 
-    #hola{
+    #introduccion{
         height: 600px;
     }
-    #hola .hola-contenedor{
+    #introduccion .intro-contenedor{
         width: 500px;
         height: 400px;
     }
 
-    #hola h1{
+    #introduccion h1{
         font-size: 35px;
     }
 
-    #hola p{
+    #introduccion p{
         font-size: 25px;
     }
 
-    #hola button{
+    #introduccion button{
         font-size: 20px;
         margin: 10px;
         padding: 13px;
