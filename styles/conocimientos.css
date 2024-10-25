@@ -23,20 +23,20 @@
 
 .conocimientos-cards img{
     width: 100px;
-    height: 100px;
+    height: 120px;
 }
   
 
 @media (min-width: 768px){
     #conocimientos .conocimientos-cards img{
         width: 200px;
-        height: 200px;
+        height: 220px;
     }
 }
 
 @media (min-width: 1024px){
     #conocimientos .conocimientos-cards img{
-        width: 250px;
+        width: 230px;
         height: 250px;
     }
 
@@ -54,6 +54,6 @@
     }
 
     .conocimientos-cards{
-        margin: 10px 200px;
+        margin: 10px 150px;
     }
 }
