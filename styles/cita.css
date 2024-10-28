@@ -8,7 +8,7 @@
     font-size: 24px;
     padding: 10px;
     letter-spacing: 1px;
-    color: #594d4d;
+    color: var(--color-oscuro);
 }
 
 #cita img{
@@ -20,7 +20,7 @@
 #cita p{
     padding: 20px;
     font-size: 16px;
-    color: #594d4d;
+    color: var(--color-oscuro);
 }
 
 @media (min-width: 768px){

@@ -28,7 +28,7 @@
 }
 
 #contacto .contactame .contacto-iconos i:hover{
-    color: #594d4d;
+    color: var(--color-oscuro);
 }
 
 .contacto-contenedor img{

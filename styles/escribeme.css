@@ -10,7 +10,7 @@
     padding: 10px;
     font-weight: 400;
     font-size: 20px;
-    color: #594d4d;
+    color: var(--color-oscuro);
     letter-spacing: 2px;
 }
 
@@ -40,7 +40,7 @@
     width: 150px;
     align-self: center;
     background-color: #e8c5a2;
-    color: #594d4d;
+    color: var(--color-oscuro);
     font-size: 20px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .escribeme button:hover{
-    background-color: #594d4d;
+    background-color: var(--color-oscuro);
     color: white;
 }
 

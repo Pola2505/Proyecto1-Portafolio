@@ -36,7 +36,7 @@
 
 .proyectos-tarjetas div button a{
     text-decoration: none;
-    color: #594d4d;
+    color: var(--color-oscuro);
 }
 
   .proyectos-tarjetas{

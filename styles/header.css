@@ -114,6 +114,6 @@ header .menu .menu-lista li a{
     }
 
     header .menu .menu-lista li a:hover{
-        color: #594d4d;
+        color: var(--color-oscuro);
     }
 }

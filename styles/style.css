@@ -7,6 +7,9 @@
 @import url('escribeme.css');
 @import url('footer.css');
 
+:root {
+    --color-oscuro: #594d4d;
+}
 
 
 *{
@@ -29,7 +32,7 @@ body{
     letter-spacing: 1px;
     padding: 10px;
     margin-top: 30px;
-    color: #594d4d;
+    color: var(--color-oscuro);
     font-weight: 400;
     font-size: 30px;
 }

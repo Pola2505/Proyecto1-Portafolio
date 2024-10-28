@@ -26,13 +26,13 @@
     font-weight: 300;
     font-size: 20px;
     padding: 10px;
-    color: #594d4d;
+    color: var(--color-oscuro);
 }
 
 #introduccion p{
     margin: 10px;
     letter-spacing: 2px;
-    color: #594d4d;
+    color: var(--color-oscuro);
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -57,7 +57,7 @@
 }
 
 #introduccion button:hover{
-   background-color:#594d4d;
+   background-color:var(--color-oscuro);
    box-shadow: 10px 10px 118px 16px rgba(89,77,77,0.73);
 }
 
