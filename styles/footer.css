@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e8c5a2;
+    background-color: var(--color-naranja);
 }
 
 footer .pie-redes{

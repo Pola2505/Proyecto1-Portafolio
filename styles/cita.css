@@ -1,5 +1,5 @@
 #cita{
-    background-color: #e8c5a2;
+    background-color: var(--color-naranja);
     height: 250px;
     display: flex;
     flex-direction: column;

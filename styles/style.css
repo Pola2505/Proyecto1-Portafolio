@@ -9,6 +9,7 @@
 
 :root {
     --color-oscuro: #594d4d;
+    --color-naranja: #e8c5a2;
 }
 
 
@@ -45,7 +46,7 @@ body{
 }
 
 hr{
-    border: 1px dotted #e8c5a2;
+    border: 1px dotted var(--color-naranja);
     margin: 0;
     width: 90%;
     height: 0;

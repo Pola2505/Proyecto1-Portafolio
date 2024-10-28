@@ -6,7 +6,7 @@ header{
     padding: 16px;
     height: 80px;
     width: 100%;
-    background-color: #e8c5a2;
+    background-color: var(--color-naranja);
 }
 
 header .logo{
@@ -23,7 +23,7 @@ header .abrir-menu, header .cerrar-menu{
 }
 
 header .cerrar-menu{
-    color: #e8c5a2;
+    color: var(--color-naranja);
 }
 
 .menu{
@@ -58,7 +58,7 @@ header .menu .menu-lista{
 
 header .menu .menu-lista li a{
     text-decoration: none;
-    color: #e8c5a2;
+    color: var(--color-naranja);
     letter-spacing: 1px;
 }
 
@@ -77,7 +77,7 @@ header .menu .menu-lista li a{
         visibility: visible;
         display: flex;
         justify-content: space-between;
-        background-color: #e8c5a2;
+        background-color: var(--color-naranja);
 
     }
 
@@ -86,7 +86,7 @@ header .menu .menu-lista li a{
         justify-content: space-between;
         align-items: center;
         padding: 16px;
-        background-color: #e8c5a2;
+        background-color: var(--color-naranja);
         height: 100px;
         position: fixed;
         z-index: 10;

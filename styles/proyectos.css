@@ -55,7 +55,7 @@
     }
 
     .proyectos-tarjetas a:hover{
-        border: 1px #e8c5a2 solid;
+        border: 1px var(--color-naranja) solid;
     }
 
     .proyectos-tarjetas a button{

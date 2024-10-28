@@ -23,7 +23,7 @@
 }
 
 #contacto .contactame .contacto-iconos i{
-    color: #e8c5a2;
+    color: var(--color-naranja);
     padding: 10px;
 }
 
