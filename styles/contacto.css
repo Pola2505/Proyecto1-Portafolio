@@ -39,13 +39,21 @@
         margin: 20px;
         font-size: 25px;
     }
+
+    .contacto-contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contacto-contenedor img{
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+    }
     
 }
 
 @media (min-width: 1024px){
-    /* #contacto{
-        margin: 20px 50px;
-    } */
 
     .contacto-contenedor{
         display: flex;

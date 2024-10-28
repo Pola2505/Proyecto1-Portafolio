@@ -30,6 +30,10 @@
     outline: none;
 }
 
+.escribeme textarea{
+    height: 150px;
+}
+
 .escribeme button{
     margin: 30px;
     padding: 3px;
