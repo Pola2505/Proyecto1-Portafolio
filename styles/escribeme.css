@@ -11,6 +11,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #594d4d;
+    letter-spacing: 2px;
 }
 
 .escribeme input, .escribeme textarea, .escribeme button {
@@ -32,8 +33,10 @@
 .escribeme button{
     margin: 30px;
     padding: 3px;
-    width: 100px;
+    width: 150px;
     align-self: center;
+    background-color: #e8c5a2;
+    color: #594d4d;
 }
 
 .escribeme div{
@@ -48,8 +51,8 @@
 }
 
 .escribeme button:hover{
-    background-color: #e8c5a2;
-    color: #594d4d;
+    background-color: #594d4d;
+    color: white;
 }
 
 input[type=text]:focus {
