@@ -39,6 +39,11 @@ body{
     color: rgb(42, 41, 41);
 }
 
+hr{
+    border: 1px dotted #e8c5a2;
+    margin: 20px 50px;
+}
+
 @media (min-width: 768px){
     .titulos{
         font-size: 45px;
