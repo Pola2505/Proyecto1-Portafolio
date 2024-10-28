@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio de una desarrolladora front end">
     <meta name="keywords" content="HTML, JavaScript, CSS, React, Front-End">
-    <link rel="shortcut icon" href="./images/favicon2.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon-nuevo.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-   
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <title>♡ Sandra Popielarczyk ♡ Desarrolladora Front-End - Portafolio</title>
 </head>
+
 <body>
     <!--Header con el logo y la navegacion + botones para abrir y cerrar el menu en mobile-->
     <header>
 
-        <a href="https://pola2505.github.io/Proyecto1-Portafolio/"><img class="logo" src="./images/Sandra.png" alt="logo-portafolio"></a>
-        <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+        <a href="https://pola2505.github.io/Proyecto1-Portafolio/"><img class="logo" src="./images/Sandra.png"
+                alt="logo-portafolio"></a>
+        <button aria-label="abrir-menu" class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
         <nav class="menu" id="menu">
-            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
+            <button aria-label="cerrar-menu" class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
             <ul class="menu-lista">
-                <li><a href="#introduccion">HOLA</a></li>
-                <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
-                <li><a href="#proyectos">PROYECTOS</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#introduccion" aria-label="Volver al inicio de la pagina">HOLA</a></li>
+                <li><a href="#conocimientos" aria-label="Ver mis conocimientos">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos" aria-label="Ver mis proyectos">PROYECTOS</a></li>
+                <li><a href="#contacto" aria-label="Formas de contactarme">CONTACTO</a></li>
             </ul>
         </nav>
 
@@ -42,7 +47,7 @@
                 <p class="front-parrafo">FRONT-END DEVELOPER</p>
                 <button><a href="#proyectos">MIS TRABAJOS</a></button>
             </div>
-            
+
         </section>
 
         <!--seccion con los iconos y conocimientos que tengo-->
@@ -50,7 +55,8 @@
 
             <div>
                 <h2 class="titulos"> . Mi caja de herramientas . </h2>
-                <p class="parrafo">¡Acá te muestro las herramientas y tecnologías que utilizo para crear soluciones web efectivas!</p>
+                <p class="parrafo">¡Acá te muestro las herramientas y tecnologías que utilizo para crear soluciones web
+                    efectivas!</p>
             </div>
 
             <div class="conocimientos-cards">
@@ -96,9 +102,9 @@
         <!--Parte de citar a alguien - buscar una cita-->
         <section id="cita">
 
-                <img src="./images/quote.svg" alt="icono-cita">
-                <blockquote>“Programar es viajar por el mundo digital, sin necesidad de pasaporte”</blockquote>
-                <p>Desconocido</p>
+            <img src="./images/quote.svg" alt="icono-cita">
+            <blockquote>“Programar es viajar por el mundo digital, sin necesidad de pasaporte”</blockquote>
+            <p>Desconocido</p>
 
         </section>
 
@@ -107,7 +113,8 @@
 
             <div>
                 <h2 class="titulos">. Proyectos en curso .</h2>
-                <p class="parrafo">Proyectos que demuestran mi pasión por el desarrollo web y mi compromiso con la calidad y la innovación. ¡Descubre mis creaciones más recientes!</p>
+                <p class="parrafo">Proyectos que demuestran mi pasión por el desarrollo web y mi compromiso con la
+                    calidad y la innovación. ¡Descubre mis creaciones más recientes!</p>
             </div>
 
             <div class="proyectos-tarjetas">
@@ -131,42 +138,47 @@
                     <img src="./images/ventaCasas.png" alt="inmobiliaria">
                     <button>INMOBILIARIA</button>
                 </a>
-                
+
             </div>
 
         </section>
 
         <div class="contenedor-avion">
             <hr>
-            <img src="./images/plane-hr.png" alt="">
+            <img src="./images/plane-hr.png" alt="icono avion">
         </div>
 
         <!--Seccion de contacto con mis redes sociales-->
         <section id="contacto">
 
             <section class="contactame">
-                <h3 class="titulos">.  La conversación comienza aquí  .</h3>
-                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt laborum maiores ad debitis dolor est ex consectetur libero ab earum.</p>
-               
+                <h3 class="titulos">. La conversación comienza aquí .</h3>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt laborum maiores ad
+                    debitis dolor est ex consectetur libero ab earum.</p>
+
                 <section class="contacto-contenedor">
-                
-                <section class="contacto-iconos">
-                    
-                        <a href="https://www.linkedin.com/in/sandra-popielarczyk/"><i class="bi bi-linkedin"></i>  sandra-popielarczyk</a>
-                        <a href="https://github.com/Pola2505"><i class="bi bi-github"></i> Pola2505</a>
-                        <a href="https:x.com/pola2505"><i class="bi bi-twitter"></i> Pola2505</a>
-                        <a href="mailto:sandra27popielarczyk@gmail.com"><i class="bi bi-envelope"></i> sandra27popielarczyk@gmail.com</a>
-                    
+
+                    <section class="contacto-iconos">
+
+                        <a href="https://www.linkedin.com/in/sandra-popielarczyk/" aria-label="Mi perfil de LinkedIn"><i
+                                class="bi bi-linkedin"></i> sandra-popielarczyk</a>
+                        <a href="https://github.com/Pola2505" aria-label="Mi perfil de Github"><i
+                                class="bi bi-github"></i> Pola2505</a>
+                        <a href="https:x.com/pola2505" aria-label="Mi cuenta de Twitter"><i class="bi bi-twitter"></i>
+                            Pola2505</a>
+                        <a href="mailto:sandra27popielarczyk@gmail.com" aria-label="Mi correo electronico"><i
+                                class="bi bi-envelope"></i> sandra27popielarczyk@gmail.com</a>
+
+                    </section>
+
+                    <img src="./images/avion-2.svg" alt="rutas del avion">
+
                 </section>
-
-                <img src="./images/avion-2.svg" alt="">
-
-            </section>
             </section>
 
             <div class="contenedor-avion">
                 <hr>
-                <img src="./images/plane-hr.png" alt="">
+                <img src="./images/plane-hr.png" alt="icono de avion">
             </div>
 
             <!--Seccion de formulario para mandarme un mensaje-->
@@ -190,23 +202,25 @@
                         <label for="mensaje">Mensaje</label>
                         <textarea name="mensaje" id="mensaje" placeholder="  Tu mensaje..."></textarea>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button aria-label="un boton para enviar el formulario" type="submit">Enviar</button>
 
                 </form>
-                <img src="./images/chicaViajera.png" alt="">
+                <img src="./images/chicaViajera.png" alt="foto de una chica aventurera">
             </section>
 
         </section>
 
     </main>
-<!--Footer con derechos y links a redes sociales-->
+    <!--Footer con derechos y links a redes sociales-->
     <footer>
 
         <section class="pie-redes">
-            <a href="https://www.linkedin.com/in/sandra-popielarczyk/"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/Pola2505"><i class="bi bi-github"></i></a>
-            <a href="https://x.com/pola2505"><i class="bi bi-twitter"></i></a>
-            <a href="mailto:sandra27popielarczyk@gmail.com"><i class="bi bi-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/sandra-popielarczyk/" aria-label="Link a mi linkedIn"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/Pola2505" aria-label="Mi cuenta de Github"><i class="bi bi-github"></i></a>
+            <a href="https://x.com/pola2505" aria-label="Mi cuenta de Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="mailto:sandra27popielarczyk@gmail.com" aria-label="Mi correo electronico"><i
+                    class="bi bi-envelope"></i></a>
         </section>
 
         <p>©Copyright 2024 - Sandra Popielarczyk</p>
@@ -215,4 +229,5 @@
 
     <script src="./main.js"></script>
 </body>
+
 </html>
