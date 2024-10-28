@@ -22,6 +22,7 @@ html{
 
 body{
     background-color: #EAEAEA;
+   
 }
 .titulos{
     text-align: center;
@@ -31,7 +32,6 @@ body{
     color: #594d4d;
     font-weight: 400;
     font-size: 30px;
-    /* background-color: rgb(240, 230, 218); */
 }
 
 .parrafo{

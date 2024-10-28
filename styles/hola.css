@@ -6,6 +6,8 @@
     background-position: center;
     display: flex;
     padding-top: 60px;
+    position: relative;
+    z-index: 3;
 }
 
 #introduccion .intro-contenedor{
