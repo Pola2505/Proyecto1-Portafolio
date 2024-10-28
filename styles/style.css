@@ -41,7 +41,23 @@ body{
 
 hr{
     border: 1px dotted #e8c5a2;
-    margin: 20px 50px;
+    margin: 0;
+    width: 90%;
+    height: 0;
+}
+
+.contenedor-avion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.contenedor-avion img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
 }
 
 @media (min-width: 768px){

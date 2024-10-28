@@ -31,6 +31,9 @@
     color: #594d4d;
 }
 
+.contacto-contenedor img{
+    display: none;
+}
 @media (min-width: 768px){
     #contacto .contactame .contacto-iconos a{
         margin: 20px;
@@ -40,8 +43,19 @@
 }
 
 @media (min-width: 1024px){
-    #contacto{
+    /* #contacto{
         margin: 20px 50px;
+    } */
+
+    .contacto-contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contacto-contenedor img{
+        display: inline-block;
+        height: 300px;
+        width: 300px;
     }
     
 }
