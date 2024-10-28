@@ -3,7 +3,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: #e8c5a2;
     position: fixed;
@@ -11,8 +11,8 @@ header{
 }
 
 header .logo{
-    max-width: 5rem;
-    border-radius: 200px;
+    max-width: 120px;
+
 }
 
 header .abrir-menu, header .cerrar-menu{
@@ -100,6 +100,7 @@ header .menu .menu-lista li a{
 }
 
 @media (min-width: 1024px){
+    
     header .logo{
         max-width: 8rem;
     }
