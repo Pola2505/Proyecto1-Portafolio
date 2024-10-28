@@ -23,8 +23,12 @@
 }
 
 #contacto .contactame .contacto-iconos i{
-    color: #744253;
+    color: #e8c5a2;
     padding: 10px;
+}
+
+#contacto .contactame .contacto-iconos i:hover{
+    color: #594d4d;
 }
 
 @media (min-width: 768px){
