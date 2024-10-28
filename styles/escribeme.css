@@ -29,10 +29,6 @@
     outline: none;
 }
 
-.escribeme textarea{
-    height: 150px;
-}
-
 .escribeme button{
     margin: 30px;
     padding: 3px;
@@ -90,6 +86,14 @@ textarea:focus{
     }
     .escribeme div{
         width: 450px;
+    }
+
+    input::placeholder{
+        font-size: 20px;
+    }
+
+    textarea::placeholder{
+        font-size: 20px;
     }
 }
 
